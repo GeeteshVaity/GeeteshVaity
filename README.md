@@ -12,7 +12,7 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=GeeteshVaity&style=flat-square&color=78CCF5&label=PROFILE+VISITORS" alt="Profile visitors"/>
+<img src="https://komarev.com/ghpvc/?username=GeeteshVaity&color=78CCF5&style=flat-square" alt="Profile views"/>
 
 </div>
 
