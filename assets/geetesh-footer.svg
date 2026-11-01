@@ -1,18 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-labelledby="title desc">
-  <title id="title">Stay curious. Build useful things.</title>
-  <desc id="desc">A minimal charcoal and warm-yellow footer with a softly animated rose line and orbital marker.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+  <title id="title">Geetesh Vaity — Stay curious, build useful things</title>
+  <desc id="desc">A minimalist warm ivory footer banner with charcoal lettering, a golden line and dot, and a yellow tape accent.</desc>
   <defs>
-    <linearGradient id="gvf-line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E5B900"/><stop offset=".5" stop-color="#F5E9C0"/><stop offset="1" stop-color="#E5B900"/></linearGradient>
-    <filter id="gvf-glow"><feGaussianBlur stdDeviation="4"/></filter>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFDF7"/>
+      <stop offset="0.55" stop-color="#F8F1DF"/>
+      <stop offset="1" stop-color="#FFF9E9"/>
+    </linearGradient>
+    <linearGradient id="tape" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F5C928"/>
+      <stop offset="0.5" stop-color="#FFD94A"/>
+      <stop offset="1" stop-color="#F2C21B"/>
+    </linearGradient>
+    <filter id="paperGrain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="11" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.055"/>
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
   </defs>
-  <rect width="1200" height="112" rx="16" fill="#171717"/>
-  <path d="M40 30H1160" stroke="#FFD43B" stroke-opacity=".14"/>
-  <path d="M40 30H1160" stroke="url(#gvf-line)" stroke-width="2" stroke-dasharray="1120" stroke-dashoffset="1120">
-    <animate attributeName="stroke-dashoffset" values="1120;0;0" keyTimes="0;.7;1" dur="6s" repeatCount="indefinite"/>
-  </path>
-  <path d="M40 30H1160" stroke="#F5E9C0" stroke-opacity=".4" stroke-width="7" filter="url(#gvf-glow)"/>
-  <circle cx="1160" cy="30" r="4" fill="#F5E9C0"><animate attributeName="r" values="3;5;3" dur="2.8s" repeatCount="indefinite"/></circle>
-  <text x="600" y="70" text-anchor="middle" fill="#FFFDF5" font-family="'Segoe UI',Arial,sans-serif" font-size="18" letter-spacing="3">STAY CURIOUS  ·  BUILD USEFUL THINGS</text>
-  <text x="600" y="92" text-anchor="middle" fill="#FFD43B" font-family="monospace" font-size="10" letter-spacing="2">GEETESH VAITY  /  END OF FILE, NOT END OF JOURNEY</text>
-  <rect x="1" y="1" width="1198" height="110" rx="15" fill="none" stroke="#FFD43B" stroke-opacity=".25"/>
+
+  <rect width="1200" height="150" fill="url(#paper)"/>
+  <rect x="0.5" y="0.5" width="1199" height="149" fill="none" stroke="#E8DDBF" stroke-width="1"/>
+  <rect width="1200" height="150" fill="#FFFFFF" opacity="0.12" filter="url(#paperGrain)"/>
+
+  <!-- Fine gold rule and terminal dot -->
+  <line x1="24" y1="22" x2="1170" y2="22" stroke="#D6A900" stroke-width="1.2" opacity="0.9"/>
+  <circle cx="1178" cy="22" r="4" fill="#D6A900"/>
+
+  <!-- Main statement -->
+  <text x="600" y="70" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600"
+        letter-spacing="3.1" fill="#24221D">STAY CURIOUS · BUILD USEFUL THINGS</text>
+
+  <!-- Yellow paper/tape strip -->
+  <path d="M348 91 L852 91 L843 119 L357 119 Z" fill="#B58B12" opacity="0.12" filter="url(#softShadow)"/>
+  <path d="M352 88 L848 88 L839 116 L361 116 Z" fill="url(#tape)"/>
+  <path d="M352 88 L848 88 L839 116 L361 116 Z" fill="none" stroke="#E2B817" stroke-width="0.7" opacity="0.75"/>
+  <text x="600" y="107" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Courier New', Courier, monospace" font-size="11.5" font-weight="700"
+        letter-spacing="2.0" fill="#211F19">GEETESH VAITY / END OF FILE, NOT END OF JOURNEY</text>
 </svg>
