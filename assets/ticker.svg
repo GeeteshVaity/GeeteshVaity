@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 84" width="900" height="84" role="img" aria-label="IDEAS CODE SHIP REPEAT">
+<defs>
+<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 0.1  0 0 0 0 0.09  0 0 0 0 0.08  0 0 0 0.07 0"/></filter>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="4" dy="6" stdDeviation="5" flood-color="#000" flood-opacity="0.28"/></filter>
+
+</defs>
+<rect width="900" height="84" fill="#f1ece0"/>
+<rect width="900" height="84" filter="url(#grain)"/>
+<g transform="rotate(-1.2 450 42.0)">
+<rect x="-20" y="14" width="940" height="56" fill="#ffb81c" filter="url(#sh)"/>
+<rect x="-20" y="14" width="940" height="56" fill="none" stroke="#1a1816" stroke-width="2" stroke-dasharray="10 7" transform="translate(0,0) scale(1)" opacity="0.0"/>
+<g><text y="53.0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="34" font-weight="800" fill="#1a1816" xml:space="preserve" textLength="3162" lengthAdjust="spacing">IDEAS   ✦   CODE   ✦   SHIP   ✦   REPEAT   ✦   IDEAS   ✦   CODE   ✦   SHIP   ✦   REPEAT   ✦   IDEAS   ✦   CODE   ✦   SHIP   ✦   REPEAT   ✦   
+<animateTransform attributeName="transform" type="translate" from="0 0" to="-1054 0" dur="22s" repeatCount="indefinite"/></text></g></g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 330" width="900" height="330" role="img" aria-label="Journey from Android to Flutter to backend to cloud">
+<defs>
+<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 0.1  0 0 0 0 0.09  0 0 0 0 0.08  0 0 0 0.07 0"/></filter>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="4" dy="6" stdDeviation="5" flood-color="#000" flood-opacity="0.28"/></filter>
+
+</defs>
+<rect width="900" height="330" fill="#f1ece0"/>
+<rect width="900" height="330" filter="url(#grain)"/>
+<g transform="translate(40,30) rotate(-1.5)"><rect width="205" height="34" fill="#1a1816" filter="url(#sh)"/>
+<text x="17" y="23" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="17" font-weight="700" fill="#faf8f3" letter-spacing="1.5">02  /  THE PATH</text>
+<rect x="195" y="10" width="8" height="14" fill="#ffb81c"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect></g>
+<path id="trail" d="M120,215 C230.0,215 230.0,150 340,150 C455.0,150 455.0,215 570,215 C675.0,215 675.0,150 780,150" fill="none" stroke="#1a1816" stroke-width="4" stroke-dasharray="3 12" stroke-linecap="round" opacity="0.35"/>
+<path d="M120,215 C230.0,215 230.0,150 340,150 C455.0,150 455.0,215 570,215 C675.0,215 675.0,150 780,150" fill="none" stroke="#ff6b35" stroke-width="5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;0.04;0.62;0.95;1" dur="9s" repeatCount="indefinite"/></path>
+<g transform="translate(120,215)">
+<g><circle r="0" fill="#1a1816" stroke="#1a1816" stroke-width="3"><animate attributeName="r" values="0;0;30;24;24;0" keyTimes="0;0.06;0.11;0.15;0.95;1" dur="9s" repeatCount="indefinite"/></circle>
+<text y="9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#faf8f3" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.11;0.15;0.95;1" dur="9s" repeatCount="indefinite"/>1</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.10;0.16;0.95;1" dur="9s" repeatCount="indefinite"/>
+<text y="62" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#1a1816">Native Android</text>
+<text y="88" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="15" fill="#6b6358">Kotlin + Jetpack Compose</text></g></g><g transform="translate(340,150)">
+<g><circle r="0" fill="#ffb81c" stroke="#1a1816" stroke-width="3"><animate attributeName="r" values="0;0;30;24;24;0" keyTimes="0;0.26;0.31;0.35;0.95;1" dur="9s" repeatCount="indefinite"/></circle>
+<text y="9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#1a1816" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.31;0.35;0.95;1" dur="9s" repeatCount="indefinite"/>2</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.30;0.36;0.95;1" dur="9s" repeatCount="indefinite"/>
+<text y="62" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#1a1816">Cross-platform</text>
+<text y="88" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="15" fill="#6b6358">Flutter + Dart</text></g></g><g transform="translate(570,215)">
+<g><circle r="0" fill="#ff6b35" stroke="#1a1816" stroke-width="3"><animate attributeName="r" values="0;0;30;24;24;0" keyTimes="0;0.46;0.51;0.55;0.95;1" dur="9s" repeatCount="indefinite"/></circle>
+<text y="9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#faf8f3" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.51;0.55;0.95;1" dur="9s" repeatCount="indefinite"/>3</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.50;0.56;0.95;1" dur="9s" repeatCount="indefinite"/>
+<text y="62" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#1a1816">Backend</text>
+<text y="88" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="15" fill="#6b6358">Java + Spring Boot</text></g></g><g transform="translate(780,150)">
+<g><circle r="0" fill="#1a1816" stroke="#1a1816" stroke-width="3"><animate attributeName="r" values="0;0;30;24;24;0" keyTimes="0;0.66;0.71;0.75;0.95;1" dur="9s" repeatCount="indefinite"/></circle>
+<text y="9" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#faf8f3" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.71;0.75;0.95;1" dur="9s" repeatCount="indefinite"/>4</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.70;0.76;0.95;1" dur="9s" repeatCount="indefinite"/>
+<text y="62" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#1a1816">Cloud</text>
+<text y="88" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="15" fill="#6b6358">AWS, exploring</text></g></g>
+<g><circle r="9" fill="#ffb81c" stroke="#1a1816" stroke-width="3"><animateMotion dur="5.6s" begin="0.4s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath xlink:href="#trail"/></animateMotion></circle></g>
+<text x="450" y="38" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="15" fill="#6b6358"></text>
+</svg>
