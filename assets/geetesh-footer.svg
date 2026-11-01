@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-labelledby="title desc">
+  <title id="title">Stay curious. Build useful things.</title>
+  <desc id="desc">A minimal charcoal and warm-yellow footer with a softly animated rose line and orbital marker.</desc>
+  <defs>
+    <linearGradient id="gvf-line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E5B900"/><stop offset=".5" stop-color="#F5E9C0"/><stop offset="1" stop-color="#E5B900"/></linearGradient>
+    <filter id="gvf-glow"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+  <rect width="1200" height="112" rx="16" fill="#171717"/>
+  <path d="M40 30H1160" stroke="#FFD43B" stroke-opacity=".14"/>
+  <path d="M40 30H1160" stroke="url(#gvf-line)" stroke-width="2" stroke-dasharray="1120" stroke-dashoffset="1120">
+    <animate attributeName="stroke-dashoffset" values="1120;0;0" keyTimes="0;.7;1" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <path d="M40 30H1160" stroke="#F5E9C0" stroke-opacity=".4" stroke-width="7" filter="url(#gvf-glow)"/>
+  <circle cx="1160" cy="30" r="4" fill="#F5E9C0"><animate attributeName="r" values="3;5;3" dur="2.8s" repeatCount="indefinite"/></circle>
+  <text x="600" y="70" text-anchor="middle" fill="#FFFDF5" font-family="'Segoe UI',Arial,sans-serif" font-size="18" letter-spacing="3">STAY CURIOUS  ·  BUILD USEFUL THINGS</text>
+  <text x="600" y="92" text-anchor="middle" fill="#FFD43B" font-family="monospace" font-size="10" letter-spacing="2">GEETESH VAITY  /  END OF FILE, NOT END OF JOURNEY</text>
+  <rect x="1" y="1" width="1198" height="110" rx="15" fill="none" stroke="#FFD43B" stroke-opacity=".25"/>
+</svg>

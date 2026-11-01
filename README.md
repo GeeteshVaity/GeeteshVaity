@@ -1,187 +1,193 @@
+<!--
+  GEETESH VAITY | GitHub Profile README
+  Visual identity: Charcoal / Warm Yellow / Cream
+  All project links below point to repositories or profiles verified on GitHub.
+-->
+
+<div align="center">
+  <img src="assets/geetesh-hero.svg" alt="Geetesh Vaity — IT undergraduate, software developer, and creative technologist" width="100%" />
+</div>
+
 <div align="center">
 
-<img src="assets/banner.png" alt="Geetesh: IDEAS. CODE. SHIP. REPEAT." width="100%" />
+[![GitHub](https://img.shields.io/badge/GITHUB-GeeteshVaity-242424?style=for-the-badge&logo=github&logoColor=FFD43B)](https://github.com/GeeteshVaity)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-Visit-242424?style=for-the-badge&logo=vercel&logoColor=FFD43B)](https://geeteshvaity-portfolio.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-Connect-E5B900?style=for-the-badge&logo=linkedin&logoColor=242424)](https://www.linkedin.com/in/geetesh-sanjay-vaity/)
+[![LeetCode](https://img.shields.io/badge/LEETCODE-Practice-242424?style=for-the-badge&logo=leetcode&logoColor=FFD43B)](https://leetcode.com/u/geeteshvaity/)
 
-<img src="assets/ticker.svg" alt="IDEAS ✦ CODE ✦ SHIP ✦ REPEAT" width="100%" />
-
-<img src="assets/typing.svg" alt="Android · Flutter · Spring Boot. Curiosity in mind. Creativity in code." width="100%" />
-
-<br/>
-
-<a href="#about"><img src="https://img.shields.io/badge/01-ABOUT-1a1816?style=for-the-badge&labelColor=ffb81c" alt="About"/></a>
-<a href="#path"><img src="https://img.shields.io/badge/02-PATH-1a1816?style=for-the-badge&labelColor=ffb81c" alt="Path"/></a>
-<a href="#toolbox"><img src="https://img.shields.io/badge/03-TOOLBOX-1a1816?style=for-the-badge&labelColor=ffb81c" alt="Toolbox"/></a>
-<a href="#projects"><img src="https://img.shields.io/badge/05-PROJECTS-1a1816?style=for-the-badge&labelColor=ffb81c" alt="Projects"/></a>
-<a href="#activity"><img src="https://img.shields.io/badge/06-ACTIVITY-1a1816?style=for-the-badge&labelColor=ffb81c" alt="Activity"/></a>
-<a href="#say-hi"><img src="https://img.shields.io/badge/08-SAY%20HI-ff6b35?style=for-the-badge&labelColor=1a1816" alt="Say hi"/></a>
+### `Curiosity in mind. Creativity in code. Engineering in progress.`
 
 </div>
 
-<br/>
+---
 
-<a id="about"></a>
+## 01 / A little about me
+
+Hey, I'm **Geetesh Vaity** — an **Information Technology undergraduate and software developer** based in Mumbai, India.
+
+I like working across the layers of an application: shaping a mobile experience, building the API behind it, modelling the data, and understanding how the whole thing gets deployed. My interests sit at the intersection of **mobile development, backend engineering, cloud, and applied AI/ML**.
+
+I'm the kind of developer who wants to know what happens after the button is tapped. Where does the request go? How is the state updated? What does the database actually store? How does the service stay secure? That's the interesting part.
+
+- **Mobile:** Building with Flutter, Kotlin, and Jetpack Compose.
+- **Backend:** Learning and building REST APIs with Java and Spring Boot.
+- **Data:** Working with PostgreSQL, SQL, and relational modelling.
+- **Cloud:** Exploring AWS services, deployment, identity, and application architecture.
+- **Problem solving:** Practising data structures and algorithms with Java.
+- **Creative technology:** Interested in thoughtful UI, product ideas, and useful AI-powered experiences.
+
+> I don't want to just learn a stack. I want to understand the system, build something real, and make the next version better.
+
+---
+
+## 02 / The way I build
+
 <div align="center">
 
-<img src="assets/about.svg" alt="Hello, I'm Geetesh. An Information Technology undergrad who turns ideas into useful software." width="100%" />
+| 01 — Imagine | 02 — Design | 03 — Engineer | 04 — Improve |
+|:---:|:---:|:---:|:---:|
+| Find a problem worth solving | Shape a clear experience | Connect UI, logic, and data | Test, debug, and iterate |
 
 </div>
 
-<details>
-<summary><b>✂️ how I like to build (click to open)</b></summary>
+I enjoy the full loop: an idea becomes a flow, the flow becomes an implementation, and the implementation teaches me what I missed. I care about clean structure, but I also care about the person who has to use what I build.
 
-<br/>
+---
 
-I enjoy the whole process, not just one slice of it:
+## 03 / Selected work
 
-1. **Imagine it.** Start with an idea that feels like it should exist.
-2. **Shape it.** Sketch the interface until it feels right in the hand.
-3. **Wire it.** Write the logic, connect the data, make it actually work.
-4. **Ship it.** Put it in front of real people, then start again.
+A few projects that represent the kind of problems and technologies I'm exploring. Project status is described conservatively; repository links are included only where a public repository is available.
 
-> Curiosity in mind. Creativity in code.
+### 01 — EV Fleet Intelligence
 
-</details>
+**Location-aware EV charging discovery and booking**
 
-<br/>
+A cloud application built around the idea of helping EV owners discover compatible nearby charging options, including household charging points. The public repository contains a Spring Boot REST API, PostgreSQL integration, a Flutter mobile client, and Cognito-oriented authentication flows.
 
-<a id="path"></a>
+`Spring Boot` · `Java` · `PostgreSQL` · `Flutter` · `AWS Cognito`
+
+[Explore the repository →](https://github.com/GeeteshVaity/ev-fleet-intelligence)
+
+### 02 — FloraVision
+
+**Offline AI-powered flower identification**
+
+A Flutter application that identifies flower images on-device. The public project describes classification across 102 flower categories, with a camera/image workflow and results designed to make botanical labels more approachable.
+
+`Flutter` · `Dart` · `Riverpod` · `GoRouter` · `LiteRT / TensorFlow Lite`
+
+[Explore the repository →](https://github.com/GeeteshVaity/FloraVision)
+
+### 03 — SettleUp
+
+**Split expenses fairly, without stress**
+
+A native Android application for splitting shared expenses. It calculates a fair share and uses a greedy settlement approach to reduce the number of transactions needed to balance a group.
+
+`Kotlin` · `Jetpack Compose` · `Material 3` · `MVVM` · `Gradle`
+
+[Explore the repository →](https://github.com/GeeteshVaity/SettleUp)
+
+### 04 — VitalPulse
+
+**An AI-assisted health metrics app concept**
+
+An exploration of camera-based mobile workflows and AI/ML integration for presenting health-related measurements. This remains a concept and experimentation area, not a clinically validated diagnostic product.
+
+`Mobile UI` · `Camera workflows` · `AI/ML exploration`
+
+*No public repository link is listed here because I don't have a verified public project URL to attach.*
+
+---
+
+## 04 / My toolbox
+
+These are technologies and tools I've worked with, studied, or explored through projects. They represent my current toolkit — not a claim that I'm equally proficient in every item.
+
 <div align="center">
 
-<img src="assets/journey.svg" alt="The path: native Android, then cross-platform with Flutter, then backend with Spring Boot, then cloud." width="100%" />
+**Languages & data**
+
+<img src="https://skillicons.dev/icons?i=java,kotlin,dart,python,postgres&theme=dark" alt="Java, Kotlin, Dart, Python, and PostgreSQL" />
+
+**Mobile & application development**
+
+<img src="https://skillicons.dev/icons?i=flutter,androidstudio&theme=dark" alt="Flutter and Android Studio" />
+
+**Backend & databases**
+
+<img src="https://skillicons.dev/icons?i=spring,postgres,mongodb&theme=dark" alt="Spring, PostgreSQL, and MongoDB" />
+
+**Cloud & developer workflow**
+
+<img src="https://skillicons.dev/icons?i=aws,git,github,postman,vscode,idea&theme=dark" alt="AWS, Git, GitHub, Postman, Visual Studio Code, and IntelliJ IDEA" />
 
 </div>
 
-<br/>
-
-<a id="toolbox"></a>
-<div align="center">
-
-<img src="assets/toolbox.svg" alt="Toolbox: Kotlin, Jetpack Compose, Flutter, Dart, Java, Spring Boot, PostgreSQL, AWS, Docker, Git and more." width="100%" />
-
-</div>
-
-<details>
-<summary><b>🧰 what each tool is doing for me (click to open)</b></summary>
-
-<br/>
-
-| Stack | What I use it for |
+| Area | Technologies / concepts |
 |---|---|
-| **Kotlin + Jetpack Compose** | Native Android apps with declarative UI |
-| **Flutter + Dart** | One codebase, multiple platforms, plus on-device ML experiments |
-| **Java + Spring Boot** | REST APIs and backend logic |
-| **PostgreSQL / SQL** | Data modelling and queries |
-| **AWS + Docker** | Learning how apps get deployed and scaled |
-| **Git + GitHub** | Everything I build lives here |
+| Programming | Java, Kotlin, Dart, Python, SQL |
+| Mobile | Flutter, Android, Jetpack Compose, Riverpod, GoRouter |
+| Backend | Spring Boot, REST APIs, layered architecture, DTOs, validation, exception handling |
+| Databases | PostgreSQL, SQL, relational data modelling |
+| Cloud & security | AWS fundamentals, EC2, S3, RDS, IAM, Cognito |
+| Tools | Git, GitHub, Postman, Android Studio, IntelliJ IDEA, VS Code |
 
-</details>
+---
 
-<br/>
+## 05 / Learning in motion
 
-<a id="receipts"></a>
+I'm deliberately building depth instead of collecting tool names. Current areas of focus:
+
+- Strengthening Spring Boot fundamentals through practical API development and layered architecture.
+- Improving Flutter architecture, state management, and API integration.
+- Revising Kotlin and modern Android development patterns.
+- Practising DSA and improving problem-solving consistency.
+- Understanding AWS deployment, IAM, authentication, and cloud architecture.
+- Turning project experiments into polished, demonstrable work.
+
+The goal is simple: be able to explain the decisions behind the code, not just show that the code runs.
+
+---
+
+## 06 / GitHub contribution activity
+
 <div align="center">
 
-<img src="assets/receipts.svg" alt="By the numbers: IT undergrad, three stacks, two apps, one campus idea in the oven." width="100%" />
+<img src="https://ghchart.rshah.org/FFD43B/GeeteshVaity" alt="GitHub contribution heatmap for GeeteshVaity, sourced from public GitHub contribution data" width="100%" />
 
 </div>
 
-<br/>
+*This heatmap is generated from the public contribution activity associated with my GitHub account. It is a live third-party rendering, not a manually drawn illustration; availability and refresh timing depend on that service.*
 
-<a id="projects"></a>
+---
+
+## 07 / Beyond the terminal
+
+I enjoy the creative side of engineering too — UI ideas, visual design, experimenting with AI tools, and finding ways to make technical work feel approachable.
+
+A few principles I try to bring into my work:
+
+- **Curiosity over assumptions** — understand why something works.
+- **Building over buzzwords** — let projects demonstrate the learning.
+- **Iteration over perfection** — test, learn, refine, repeat.
+- **Useful over flashy** — make the experience solve a real problem.
+
+---
+
+## 08 / Find me around the web
+
 <div align="center">
 
-<img src="assets/h-projects.svg" alt="Projects: things I've built" width="100%" />
-
-<a href="https://github.com/GeeteshVaity/FloraVision"><img src="assets/project-floravision.svg" alt="FloraVision: Flutter plant-analysis app with on-device inference. Open repo." width="100%" /></a>
-
-<a href="https://github.com/GeeteshVaity/SettleUp"><img src="assets/project-settleup.svg" alt="SettleUp: native Android app with Kotlin, Jetpack Compose and MVVM. Open repo." width="100%" /></a>
-
-<img src="assets/project-campus.svg" alt="Campus Food Pre-Order: a hyperlocal campus food ordering app idea. Coming soon." width="100%" />
+[**GitHub**](https://github.com/GeeteshVaity) · [**Portfolio**](https://geeteshvaity-portfolio.vercel.app/) · [**LinkedIn**](https://www.linkedin.com/in/geetesh-sanjay-vaity/) · [**LeetCode**](https://leetcode.com/u/geeteshvaity/)
 
 </div>
 
-<details>
-<summary><b>🔍 the short version of each project (click to open)</b></summary>
+If you're building something interesting, exploring mobile or backend engineering, or want to collaborate on a practical project, feel free to connect.
 
-<br/>
+---
 
-- **FloraVision**: Flutter, Dart. Explores plant image classification and running the model *on the device*, so it works without a server.
-- **SettleUp**: Kotlin, Jetpack Compose. A native Android app focused on clean structure: MVVM, reactive state, modern Android practices.
-- **Campus Food Pre-Order**: still an idea. Pre-order from campus food counters so a break is spent eating, not queueing.
-
-</details>
-
-<br/>
-
-<a id="activity"></a>
 <div align="center">
-
-<img src="assets/h-activity.svg" alt="GitHub activity: proof of work" width="100%" />
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=GeeteshVaity&show_icons=true&hide_border=true&bg_color=faf8f3&title_color=ff6b35&icon_color=ffb81c&text_color=1a1816&rank_icon=github&card_width=400" width="100%" alt="GitHub stats"/>
-
-</td>
-<td width="50%" align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GeeteshVaity&layout=compact&hide_border=true&bg_color=faf8f3&title_color=ff6b35&text_color=1a1816&card_width=400" width="100%" alt="Most used languages"/>
-
-</td>
-</tr>
-</table>
-
-<img src="https://streak-stats.demolab.com?user=GeeteshVaity&hide_border=true&background=faf8f3&ring=ff6b35&fire=ffb81c&currStreakLabel=1a1816&sideLabels=1a1816&currStreakNum=1a1816&sideNums=1a1816&dates=6b6358" width="80%" alt="GitHub contribution streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=GeeteshVaity&bg_color=faf8f3&color=1a1816&line=ff6b35&point=1a1816&area=true&area_color=ffb81c&hide_border=true&title_color=ff6b35" width="100%" alt="Contribution activity graph"/>
-
-</div>
-
-<br/>
-
-<a id="next"></a>
-<div align="center">
-
-<img src="assets/next.svg" alt="What's next: build, grow, explore." width="100%" />
-
-</div>
-
-<details>
-<summary><b>📓 currently leveling up (click to open)</b></summary>
-
-<br/>
-
-- [ ] Flutter state management with Provider, Riverpod and BLoC
-- [ ] REST API integration, end to end
-- [ ] Backend engineering with Java and Spring Boot
-- [ ] Cloud fundamentals on AWS
-- [ ] Polishing projects until they're interview-ready
-
-</details>
-
-<details>
-<summary><b>🎯 what I'm looking for (click to open)</b></summary>
-
-<br/>
-
-Internships and entry-level developer roles in **mobile** and **backend**. If you're building something interesting and need someone curious who ships, say hi.
-
-</details>
-
-<br/>
-
-<a id="say-hi"></a>
-<div align="center">
-
-<img src="assets/contact.svg" alt="Let's build something worth exploring." width="100%" />
-
-<a href="https://github.com/GeeteshVaity"><img src="https://img.shields.io/badge/GitHub-GeeteshVaity-1a1816?style=for-the-badge&logo=github&logoColor=ffb81c" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-connect-ffb81c?style=for-the-badge&logo=linkedin&logoColor=1a1816" alt="LinkedIn"/></a>
-
-<br/><br/>
-
-<img src="assets/ticker-footer.svg" alt="Thanks for stopping by. Keep creating." width="100%" />
-
+  <img src="assets/geetesh-footer.svg" alt="Stay curious. Build useful things. — Geetesh Vaity" width="100%" />
+  <sub>Made with curiosity, persistence, and probably one more debugging session than planned.</sub>
 </div>

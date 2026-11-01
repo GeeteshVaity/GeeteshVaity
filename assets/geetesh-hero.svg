@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Geetesh Vaity — Curious mind, engineering mindset</title>
+  <desc id="desc">A cinematic charcoal and warm-yellow developer banner with a fine technical grid, animated rose gradients, orbital geometry, and a glowing path.</desc>
+  <defs>
+    <linearGradient id="gvh-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171717"/><stop offset=".55" stop-color="#242424"/><stop offset="1" stop-color="#34302A"/>
+    </linearGradient>
+    <linearGradient id="gvh-glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E5B900"/><stop offset=".48" stop-color="#FFD43B"/><stop offset="1" stop-color="#F5E9C0"/>
+      <animate attributeName="x1" values="0;-.35;0" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;.65;1" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="gvh-orb">
+      <stop offset="0" stop-color="#FFD43B" stop-opacity=".24"/><stop offset="1" stop-color="#E5B900" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="gvh-grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#F5E9C0" stroke-opacity=".075" stroke-width=".7"/>
+      <circle cx="0" cy="0" r="1" fill="#F5E9C0" fill-opacity=".16"/>
+    </pattern>
+    <filter id="gvh-blur" x="-40%" y="-100%" width="180%" height="300%"><feGaussianBlur stdDeviation="8"/></filter>
+    <mask id="gvh-fade"><rect width="1200" height="390" fill="url(#gvh-mask)"/></mask>
+    <linearGradient id="gvh-mask" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="white"/><stop offset=".78" stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
+  </defs>
+  <rect width="1200" height="390" rx="22" fill="url(#gvh-bg)"/>
+  <rect width="1200" height="390" rx="22" fill="url(#gvh-grid)"/>
+  <circle cx="1000" cy="170" r="260" fill="url(#gvh-orb)">
+    <animate attributeName="cx" values="990;1030;990" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <g fill="none" stroke="#FFD43B" stroke-opacity=".28">
+    <ellipse cx="1000" cy="190" rx="170" ry="66" transform="rotate(-28 1000 190)"/>
+    <ellipse cx="1000" cy="190" rx="170" ry="66" transform="rotate(52 1000 190)"/>
+    <circle cx="1000" cy="190" r="112" stroke-dasharray="2 10"/>
+  </g>
+  <circle cx="1138" cy="116" r="4" fill="#F5E9C0"><animate attributeName="opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="858" cy="250" r="3" fill="#FFD43B"/>
+  <g font-family="'Segoe UI',Arial,sans-serif" mask="url(#gvh-fade)">
+    <text x="82" y="76" fill="#FFD43B" font-size="13" letter-spacing="5">DEVELOPER PROFILE  /  2026</text>
+    <text x="78" y="178" fill="#FFFDF5" font-size="68" font-weight="700" letter-spacing="-2">GEETESH VAITY</text>
+    <text x="83" y="222" fill="#F5E9C0" font-size="20" letter-spacing="1.2">IT UNDERGRADUATE  ·  SOFTWARE DEVELOPER</text>
+    <text x="83" y="260" fill="#FFD43B" font-size="15" letter-spacing="2">MOBILE  /  BACKEND  /  CLOUD  /  APPLIED AI</text>
+    <path d="M83 294 C220 294 286 294 392 294 S560 294 680 294" fill="none" stroke="#FFD43B" stroke-opacity=".35" stroke-width="12" filter="url(#gvh-blur)"/>
+    <path d="M83 294 C220 294 286 294 392 294 S560 294 680 294" fill="none" stroke="#FFD43B" stroke-opacity=".78" stroke-width="2.1" stroke-linecap="round"/>
+    <path d="M83 294 C220 294 286 294 392 294 S560 294 680 294" fill="none" stroke="url(#gvh-glow)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="700" stroke-dashoffset="700">
+      <animate attributeName="stroke-dashoffset" values="700;0;0" keyTimes="0;.55;1" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <text x="83" y="345" fill="#FFFDF5" fill-opacity=".72" font-size="13" letter-spacing="3">CURIOSITY IN MIND. CREATIVITY IN CODE.</text>
+  </g>
+  <path d="M760 38V352" stroke="#F5E9C0" stroke-opacity=".14" stroke-dasharray="2 8"/>
+  <g fill="#F5E9C0" fill-opacity=".52" font-family="monospace" font-size="10">
+    <text x="790" y="338">BUILD · DEBUG · LEARN · REPEAT</text>
+    <text x="1080" y="56">GV / 01</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="388" rx="21" fill="none" stroke="#FFD43B" stroke-opacity=".28"/>
+</svg>
